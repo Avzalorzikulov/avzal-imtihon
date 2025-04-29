@@ -11,7 +11,7 @@ const Page = () => {
         async function getCartData() {
             try {
                 const responce = await fetch(`https://fakestoreapi.com/carts/${id}`)
-                const data = await responce.json()
+                const data: Cart = await responce.json()
                 setCartData(data)
             } catch {
                 throw new Error("Failed to fetch")
