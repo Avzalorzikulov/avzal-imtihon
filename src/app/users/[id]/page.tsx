@@ -1,5 +1,5 @@
 'use client'
-import { User } from '@/app/interface/page'
+import { User } from '@/interface/page'
 import Link from 'next/link'
 import { useParams } from 'next/navigation'
 import React, { useEffect, useState } from 'react'
