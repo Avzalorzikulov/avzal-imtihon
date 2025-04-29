@@ -1,5 +1,5 @@
 import React from 'react'
-import { User } from '@/app/types/page'
+import { User } from '@/app/interface/page'
 import Link from 'next/link'
 
 const Page = async () => {

@@ -1,5 +1,5 @@
 'use client'
-import { Cart } from '@/app/types/page'
+import { Cart } from '@/app/interface/page'
 import { useParams } from 'next/navigation'
 import React, { useEffect, useState } from 'react'
 
