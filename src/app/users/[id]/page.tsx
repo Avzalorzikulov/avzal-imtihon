@@ -19,8 +19,9 @@ const Page = () => {
             }
         }
         getUserData()
-    }, [])
+    }, [id])
 
+    
     return (
         <div className="min-h-screen flex items-center justify-center p-6">
             <div className="bg-gray-600 rounded shadow p-6 w-full max-w-md">

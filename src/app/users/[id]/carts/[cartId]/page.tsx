@@ -13,13 +13,13 @@ const Page = () => {
                 const responce = await fetch(`https://fakestoreapi.com/carts/${id}`)
                 const data = await responce.json()
                 setCartData(data)
-            } catch (err: any) {
+            } catch {
                 throw new Error("Failed to fetch")
             }
         }
 
         getCartData()
-    }, [])
+    }, [id])
 
     return (
         <div className="min-h-screen flex items-center justify-center p-4">
